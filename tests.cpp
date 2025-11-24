@@ -1,5 +1,12 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "doctest.h"
+#include "postNetFunctions.h"    //Include your .h file
+
+
+TEST_CASE( "test setup" ) {
+  CHECK( getAnswer() == 42 );
+  CHECK( getGreeting() == "Hello, World!" );
+}
 
 using doctest::Approx;
 
