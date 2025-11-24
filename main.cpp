@@ -1,5 +1,5 @@
 #include <iostream>
-#include "functions.h"    //Include your .h file
+#include "postNetFunctions.h"    //Include your .h file
 
 using namespace std;
 
