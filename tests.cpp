@@ -29,5 +29,8 @@ std::string formatAddress(const std::string& input) {
 }
 
 TEST_CASE("trim"){
-  CHECK(trim)
+  CHECK(trim("  ")== "");
+}
+TEST_CASE("formatAddress"){
+  CHECK(formatAddress("  ")== "");
 }
