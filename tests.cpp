@@ -16,7 +16,7 @@ std::string formatAddress(const std::string& input) {
     size_t comma2 = input.find(',', comma1 + 1);
 
     if (comma1 == std::string::npos || comma2 == std::string::npos)
-        return 0;
+        return " ";
 
     std::string city  = trim(input.substr(0, comma1));
     std::string state = trim(input.substr(comma1 + 1, comma2 - comma1 - 1));
