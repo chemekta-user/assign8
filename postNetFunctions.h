@@ -8,7 +8,7 @@
 // Don't use 'using namespace std;' in header files
 
 /** @brief Get each section of the string
- *  @return the number 42
+ *  @return return the new string
  */
 std::string trim(const std::string& s);
 
