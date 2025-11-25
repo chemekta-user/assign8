@@ -10,12 +10,12 @@
 /** @brief Example function declaration
  *  @return the number 42
  */
-int getAnswer();
+std::string trim(const std::string& s);
 
 /** @brief Function that returns a greeting
  *  @return "Hello, World!"
  */
-std::string getGreeting();
+
 // use std::string because we didn't do 'using namespace std;'
 
 #endif
