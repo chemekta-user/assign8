@@ -7,7 +7,7 @@
 
 // Don't use 'using namespace std;' in header files
 
-/** @brief Example function declaration
+/** @brief Get each section of the string
  *  @return the number 42
  */
 std::string trim(const std::string& s);
