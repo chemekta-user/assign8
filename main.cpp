@@ -6,6 +6,6 @@
 using namespace std;
 
 int main() {
-  cout << getGreeting() << endl;
-  cout << "The answer is " << getAnswer() << endl;
+    std::string s = "New York,NY,56458";
+    std::cout << formatAddress(s) << "\n";
 }
