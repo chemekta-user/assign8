@@ -3,6 +3,7 @@
 
 // Need to include <string> to use strings in function declarations
 #include <string>
+#include <algorithm>
 
 // Don't use 'using namespace std;' in header files
 
