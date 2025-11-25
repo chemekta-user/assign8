@@ -14,7 +14,7 @@ std::string trim(const std::string& s);
 
 
 /** @brief Reformat the string
- *  @return "Hello, World!"
+ *  @return Finds commas and spaces, reformats string to desired outcome
  */
 std::string formatAddress(const std::string& input);
 // use std::string because we didn't do 'using namespace std;'
