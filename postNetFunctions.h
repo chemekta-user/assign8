@@ -10,7 +10,7 @@
 /** @brief Example function declaration
  *  @return the number 42
  */
-std::string trim(const std::string& s);
+std::string formatAddress(const std::string& input);
 
 /** @brief Function that returns a greeting
  *  @return "Hello, World!"
