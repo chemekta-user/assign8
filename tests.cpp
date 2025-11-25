@@ -32,5 +32,5 @@ TEST_CASE("trim"){
   CHECK(trim("  ")== "");
 }
 TEST_CASE("formatAddress"){
-  CHECK(formatAddress("  ")== "");
+  CHECK(formatAddress("New York,NY,56458") == "New York, NY 56458");
 }
