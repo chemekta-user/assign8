@@ -7,13 +7,13 @@
 
 // Don't use 'using namespace std;' in header files
 
-/** @brief 
- *  @return return the new string
+/** @brief Take peices of the string and store information
+ *  @return return the string in stored information
  */
 std::string trim(const std::string& s);
 
 
-/** @brief Function that returns a greeting
+/** @brief Reformat the string
  *  @return "Hello, World!"
  */
 std::string formatAddress(const std::string& input);
