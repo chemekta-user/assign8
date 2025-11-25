@@ -28,4 +28,4 @@ std::string formatAddress(const std::string& input) {
     return city + ", " + state + " " + zip;
 }
 
-TEST_CASE(trim);
+TEST_CASE("trim");
